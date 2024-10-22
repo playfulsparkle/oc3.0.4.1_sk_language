@@ -1,0 +1,173 @@
+<?php
+// Heading
+$_['heading_title']				= 'Platba eWAY';
+
+// Text
+$_['text_extension']			= 'Rozšírenia';
+$_['text_success']				= 'Úspech: Úspešne ste upravili údaje o eWAY!';
+$_['text_edit']					= 'Upraviť eWAY';
+$_['text_eway']					= '<a href="http://www.eway.com.au/" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/eway.png" alt="eWAY" title="eWAY" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_authorisation']		= 'Autorizácia';
+$_['text_sale']					= 'Predaj';
+$_['text_transparent']			= 'Transparentný presmerovanie (platobný formulár na stránke)';
+$_['text_iframe']				= 'IFrame (platobný formulár v okne)';
+$_['text_connect_eway']	        = 'eWAY pomáha podnikom bezpečne spracovávať všetky hlavné kreditné karty, s integrovanou prevenciou podvodov, technickou podporou 24/7 a mnohými ďalšími funkciami. <a target="_blank" rel="external noopener noreferrer" href="https://myeway.force.com/success/accelerator-signup?pid=4382&pa=0012000000ivcWf">Kliknite sem</a>';
+$_['text_eway_image']	        = '<a href="https://myeway.force.com/success/accelerator-signup?pid=4382&pa=0012000000ivcWf" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/eway_connect.png" alt="eWAY" title="eWAY" class="img-fluid" /></a>';
+
+// Entry
+$_['entry_paymode']				= 'Platobný režim';
+$_['entry_test']				= 'Testovací režim';
+$_['entry_order_status']		= 'Stav objednávky';
+$_['entry_order_status_refund'] = 'Stav vrátenej objednávky';
+$_['entry_order_status_auth']	= 'Stav autorizovanej objednávky';
+$_['entry_order_status_fraud']	= 'Stav objednávky podozrivej na podvod';
+$_['entry_status']				= 'Stav';
+$_['entry_username']			= 'eWAY API kľúč';
+$_['entry_password']			= 'eWAY heslo';
+$_['entry_payment_type']		= 'Typ platby';
+$_['entry_geo_zone']			= 'Geografická zóna';
+$_['entry_sort_order']			= 'Poradie zoradenia';
+$_['entry_transaction_method']	= 'Metóda transakcie';
+
+// Error
+$_['error_permission']			= 'Upozornenie: Nemáte povolenie na úpravu platobného modulu eWAY';
+$_['error_username']			= 'eWAY API kľúč je povinný!';
+$_['error_password']			= 'eWAY heslo je povinné!';
+$_['error_payment_type']		= 'Vyžaduje sa aspoň jeden typ platby!';
+
+// Help hints
+$_['help_testmode']				= 'Nastavte na Áno pre použitie eWAY Sandbox.';
+$_['help_username']				= 'Váš eWAY API kľúč z vášho účtu MYeWAY.';
+$_['help_password']				= 'Vaše eWAY API heslo z vášho účtu MYeWAY.';
+$_['help_transaction_method']	= 'Autorizácia je k dispozícii iba pre austrálske banky.';
+
+// Order page - payment tab
+$_['text_payment_info']			= 'Informácie o platbe';
+$_['text_order_total']			= 'Celková autorizovaná suma';
+$_['text_transactions']			= 'Transakcie';
+$_['text_column_transactionid'] = 'eWAY ID transakcie';
+$_['text_column_amount']		= 'Suma';
+$_['text_column_type']			= 'Typ';
+$_['text_column_created']		= 'Vytvorené';
+$_['text_total_captured']		= 'Celková suma zachytená';
+$_['text_capture_status']		= 'Platba zachytená';
+$_['text_void_status']			= 'Platba zrušená';
+$_['text_refund_status']		= 'Platba vrátená';
+$_['text_total_refunded']		= 'Celková suma vrátená';
+$_['text_refund_success']		= 'Vrátenie sa podarilo!';
+$_['text_capture_success']		= 'Zachytenie sa podarilo!';
+$_['text_refund_failed']		= 'Vrátenie zlyhalo: ';
+$_['text_capture_failed']		= 'Zachytenie zlyhalo: ';
+$_['text_unknown_failure']		= 'Neplatná objednávka alebo suma';
+$_['text_refund']               = 'Vrátenie';
+
+$_['text_confirm_capture']		= 'Ste si istí, že chcete zachytiť platbu?';
+$_['text_confirm_release']		= 'Ste si istí, že chcete uvoľniť platbu?';
+$_['text_confirm_refund']		= 'Ste si istí, že chcete vrátiť platbu?';
+
+$_['text_empty_refund']			= 'Prosím, zadajte sumu na vrátenie';
+$_['text_empty_capture']		= 'Prosím, zadajte sumu na zachytenie';
+
+$_['btn_refund']				= 'Vrátiť';
+$_['btn_capture']				= 'Zachytiť';
+// Validation Error codes
+$_['text_card_message_V6000']	= 'Nezadefinovaná chyba validácie';
+$_['text_card_message_V6001'] 	= 'Neplatná IP adresa zákazníka';
+$_['text_card_message_V6002'] 	= 'Neplatný DeviceID';
+$_['text_card_message_V6011'] 	= 'Neplatná suma';
+$_['text_card_message_V6012'] 	= 'Neplatný popis faktúry';
+$_['text_card_message_V6013'] 	= 'Neplatné číslo faktúry';
+$_['text_card_message_V6014'] 	= 'Neplatný referenčný údaj faktúry';
+$_['text_card_message_V6015'] 	= 'Neplatný kód meny';
+$_['text_card_message_V6016'] 	= 'Vyžaduje sa platba';
+$_['text_card_message_V6017'] 	= 'Vyžaduje sa kód platobnej meny';
+$_['text_card_message_V6018'] 	= 'Neznámy kód platobnej meny';
+$_['text_card_message_V6021'] 	= 'Vyžaduje sa meno držiteľa karty';
+$_['text_card_message_V6022'] 	= 'Vyžaduje sa číslo karty';
+$_['text_card_message_V6023'] 	= 'Vyžaduje sa CVN';
+$_['text_card_message_V6031'] 	= 'Neplatné číslo karty';
+$_['text_card_message_V6032'] 	= 'Neplatné CVN';
+$_['text_card_message_V6033'] 	= 'Neplatný dátum expirácie';
+$_['text_card_message_V6034'] 	= 'Neplatné číslo vydania';
+$_['text_card_message_V6035'] 	= 'Neplatný dátum začiatku';
+$_['text_card_message_V6036'] 	= 'Neplatný mesiac';
+$_['text_card_message_V6037'] 	= 'Neplatný rok';
+$_['text_card_message_V6040'] 	= 'Neplatný Token zákazníka ID';
+$_['text_card_message_V6041'] 	= 'Zákazník je povinný';
+$_['text_card_message_V6042'] 	= 'Vyžaduje sa meno zákazníka';
+$_['text_card_message_V6043'] 	= 'Vyžaduje sa priezvisko zákazníka';
+$_['text_card_message_V6044'] 	= 'Vyžaduje sa kód krajiny zákazníka';
+$_['text_card_message_V6045'] 	= 'Vyžaduje sa titul zákazníka';
+$_['text_card_message_V6046'] 	= 'Vyžaduje sa Token zákazníka ID';
+$_['text_card_message_V6047'] 	= 'Vyžaduje sa RedirectURL';
+$_['text_card_message_V6051'] 	= 'Neplatné meno';
+$_['text_card_message_V6052'] 	= 'Neplatné priezvisko';
+$_['text_card_message_V6053'] 	= 'Neplatný kód krajiny';
+$_['text_card_message_V6054'] 	= 'Neplatný email';
+$_['text_card_message_V6055'] 	= 'Neplatný telefón';
+$_['text_card_message_V6056'] 	= 'Neplatný mobil';
+$_['text_card_message_V6057'] 	= 'Neplatný fax';
+$_['text_card_message_V6058'] 	= 'Neplatný titul';
+$_['text_card_message_V6059'] 	= 'Neplatná URL na presmerovanie';
+$_['text_card_message_V6060'] 	= 'Neplatná URL na presmerovanie';
+$_['text_card_message_V6061'] 	= 'Neplatný referenčný údaj';
+$_['text_card_message_V6062'] 	= 'Neplatný názov spoločnosti';
+$_['text_card_message_V6063'] 	= 'Neplatný popis práce';
+$_['text_card_message_V6064'] 	= 'Neplatná ulica 1';
+$_['text_card_message_V6065'] 	= 'Neplatná ulica 2';
+$_['text_card_message_V6066'] 	= 'Neplatné mesto';
+$_['text_card_message_V6067'] 	= 'Neplatný štát';
+$_['text_card_message_V6068'] 	= 'Neplatný PSČ';
+$_['text_card_message_V6069'] 	= 'Neplatný email';
+$_['text_card_message_V6070'] 	= 'Neplatný telefón';
+$_['text_card_message_V6071'] 	= 'Neplatný mobil';
+$_['text_card_message_V6072'] 	= 'Neplatné komentáre';
+$_['text_card_message_V6073'] 	= 'Neplatný fax';
+$_['text_card_message_V6074'] 	= 'Neplatná URL';
+$_['text_card_message_V6075'] 	= 'Neplatné meno dodacej adresy';
+$_['text_card_message_V6076'] 	= 'Neplatné priezvisko dodacej adresy';
+$_['text_card_message_V6077'] 	= 'Neplatná ulica dodacej adresy 1';
+$_['text_card_message_V6078'] 	= 'Neplatná ulica dodacej adresy 2';
+$_['text_card_message_V6079'] 	= 'Neplatné mesto dodacej adresy';
+$_['text_card_message_V6080'] 	= 'Neplatný štát dodacej adresy';
+$_['text_card_message_V6081'] 	= 'Neplatný PSČ dodacej adresy';
+$_['text_card_message_V6082'] 	= 'Neplatný e-mail dodacej adresy';
+$_['text_card_message_V6083'] 	= 'Neplatný telefón dodacej adresy';
+$_['text_card_message_V6084'] 	= 'Neplatná krajina dodacej adresy';
+$_['text_card_message_V6091'] 	= 'Neznámy kód krajiny';
+$_['text_card_message_V6100'] 	= 'Neplatné meno na karte';
+$_['text_card_message_V6101'] 	= 'Neplatný mesiac expirácie karty';
+$_['text_card_message_V6102'] 	= 'Neplatný rok expirácie karty';
+$_['text_card_message_V6103'] 	= 'Neplatný mesiac začiatku platnosti karty';
+$_['text_card_message_V6104'] 	= 'Neplatný rok začiatku platnosti karty';
+$_['text_card_message_V6105'] 	= 'Neplatné číslo vydania karty';
+$_['text_card_message_V6106'] 	= 'Neplatný CVN karty';
+$_['text_card_message_V6107'] 	= 'Neplatný prístupový kód';
+$_['text_card_message_V6108'] 	= 'Neplatná adresa zákazníka';
+$_['text_card_message_V6109'] 	= 'Neplatný User Agent';
+$_['text_card_message_V6110'] 	= 'Neplatné číslo karty';
+$_['text_card_message_V6111'] 	= 'Neautorizovaný prístup k API, účet nie je certifikovaný podľa PCI';
+$_['text_card_message_V6112'] 	= 'Nadbytočné údaje o karte okrem roku a mesiaca expirácie';
+$_['text_card_message_V6113'] 	= 'Neplatná transakcia na vrátenie peňazí';
+$_['text_card_message_V6114'] 	= 'Chyba validácie brány';
+$_['text_card_message_V6115'] 	= 'Neplatný DirectRefundRequest, ID transakcie';
+$_['text_card_message_V6116'] 	= 'Neplatné údaje o karte pri pôvodnom TransactionID';
+$_['text_card_message_V6124'] 	= 'Neplatné položky. Položky boli poskytnuté, ale súčty nezodpovedajú poľu TotalAmount';
+$_['text_card_message_V6125'] 	= 'Vybraný typ platby nie je povolený';
+$_['text_card_message_V6126'] 	= 'Neplatné šifrované číslo karty, dešifrovanie zlyhalo';
+$_['text_card_message_V6127'] 	= 'Neplatné šifrované CVN, dešifrovanie zlyhalo';
+$_['text_card_message_V6128'] 	= 'Neplatná metóda pre typ platby';
+$_['text_card_message_V6129'] 	= 'Transakcia nebola autorizovaná na prevzatie/zrušenie';
+$_['text_card_message_V6130'] 	= 'Všeobecná chyba informácií o zákazníkovi';
+$_['text_card_message_V6131'] 	= 'Všeobecná chyba informácií o dodaní';
+$_['text_card_message_V6132'] 	= 'Transakcia už bola dokončená alebo zrušená, operácia nie je povolená';
+$_['text_card_message_V6133'] 	= 'Pokladňa nie je k dispozícii pre typ platby';
+$_['text_card_message_V6134'] 	= 'Neplatné ID autorizovanej transakcie na prevzatie/zrušenie';
+$_['text_card_message_V6135'] 	= 'Chyba PayPal pri spracovaní vrátenia peňazí';
+$_['text_card_message_V6140'] 	= 'Účet obchodníka je pozastavený';
+$_['text_card_message_V6141'] 	= 'Neplatné údaje o účte PayPal alebo API podpis';
+$_['text_card_message_V6142'] 	= 'Autorizácia nie je k dispozícii pre banku/oddelenie';
+$_['text_card_message_V6150'] 	= 'Neplatná suma vrátenia peňazí';
+$_['text_card_message_V6151'] 	= 'Suma vrátenia peňazí je väčšia ako pôvodná transakcia';
+$_['text_card_message_D4406'] 	= 'Neznáma chyba';
+$_['text_card_message_S5010'] 	= 'Neznáma chyba';

@@ -1,0 +1,70 @@
+<?php
+// Heading
+$_['heading_title']          = 'Predinštalácia';
+
+// Text
+$_['text_step_2']            = 'Skontrolujte, či je váš server správne nastavený';
+$_['text_install_php']       = '1. Prosím, nakonfigurujte svoje PHP nastavenia podľa požiadaviek uvedených nižšie.';
+$_['text_install_extension'] = '2. Prosím, uistite sa, že PHP rozšírenia uvedené nižšie sú nainštalované.';
+$_['text_install_db']        = '3. Prosím, zabezpečte, aby ste mali k dispozícii aspoň jeden ovládač databázy.';
+$_['text_install_file']      = '4. Prosím, uistite sa, že ste nastavili správne oprávnenia na súbory uvedené nižšie.';
+$_['text_install_directory'] = '5. Prosím, uistite sa, že ste nastavili správne oprávnenia na adresáre uvedené nižšie.';
+$_['text_setting']           = 'Nastavenia PHP';
+$_['text_current']           = 'Aktuálne nastavenia';
+$_['text_required']          = 'Požadované nastavenia';
+$_['text_extension']         = 'Nastavenia rozšírenia';
+$_['text_db']                = 'Databáza';
+$_['text_db_driver']         = 'Ovládač databázy';
+$_['text_file']              = 'Súbory';
+$_['text_directory']         = 'Adresáre';
+$_['text_status']            = 'Stav';
+$_['text_version']           = 'Verzia PHP';
+$_['text_global']            = 'Register Globals';
+$_['text_magic']             = 'Magic Quotes GPC';
+$_['text_file_upload']       = 'Nahrávanie súborov';
+$_['text_session']           = 'Automatické spustenie relácie';
+$_['text_gd']                = 'GD';
+$_['text_curl']              = 'cURL';
+$_['text_openssl']           = 'OpenSSL';
+$_['text_zlib']              = 'ZLIB';
+$_['text_zip']               = 'ZIP';
+$_['text_mbstring']          = 'mbstring';
+$_['text_dom']               = 'DOM/XML';
+$_['text_hash']              = 'Hash';
+$_['text_xmlwriter']         = 'XMLWriter';
+$_['text_json']              = 'JSON';
+$_['text_on']                = 'Zapnuté';
+$_['text_off']               = 'Vypnuté';
+$_['text_writable']          = 'Zapisovateľné';
+$_['text_unwritable']        = 'Nezapisovateľné';
+//$_['text_missing']           = 'Chýbajúce';
+
+// Error
+$_['error_missing']          = 'Chýbajúce';
+$_['error_unwritable']       = 'Nezapisovateľné';
+$_['error_version']          = 'Upozornenie: Musíte použiť PHP verziu 7.3 alebo vyššiu, aby OpenCart fungoval!';
+$_['error_file_upload']      = 'Upozornenie: Nahrávanie súborov musí byť povolené!';
+$_['error_session']          = 'Upozornenie: OpenCart nebude fungovať s povoleným session.auto_start!';
+$_['error_db']               = 'Upozornenie: Rozšírenie databázy musí byť načítané v php.ini, aby OpenCart fungoval!';
+$_['error_gd']               = 'Upozornenie: Rozšírenie GD musí byť načítané, aby OpenCart fungoval!';
+$_['error_curl']             = 'Upozornenie: Rozšírenie cURL musí byť načítané, aby OpenCart fungoval!';
+$_['error_openssl']          = 'Upozornenie: Rozšírenie OpenSSL musí byť načítané, aby OpenCart fungoval!';
+$_['error_zlib']             = 'Upozornenie: Rozšírenie ZLIB musí byť načítané, aby OpenCart fungoval!';
+$_['error_zip']              = 'Upozornenie: Rozšírenie ZIP musí byť načítané, aby OpenCart fungoval!';
+$_['error_mbstring']         = 'Upozornenie: Rozšírenie mbstring musí byť načítané, aby OpenCart fungoval!';
+$_['error_dom']              = 'Upozornenie: Rozšírenie DOM musí byť načítané, aby OpenCart fungoval!';
+$_['error_hash']             = 'Upozornenie: Rozšírenie Hash musí byť načítané, aby OpenCart fungoval!';
+$_['error_xmlwriter']        = 'Upozornenie: Rozšírenie XMLWriter musí byť načítané, aby OpenCart fungoval!';
+$_['error_json']             = 'Upozornenie: Rozšírenie JSON musí byť načítané, aby OpenCart fungoval!';
+$_['error_catalog_exist']    = 'Upozornenie: config.php neexistuje. Musíte premenovať config-dist.php na config.php!';
+$_['error_catalog_writable'] = 'Upozornenie: config.php musí byť zapisovateľný, aby sa OpenCart nainštaloval!';
+$_['error_admin_exist']      = 'Upozornenie: admin/config.php neexistuje. Musíte premenovať admin/config-dist.php na admin/config.php!';
+$_['error_admin_writable']   = 'Upozornenie: admin/config.php musí byť zapisovateľný, aby sa OpenCart nainštaloval!';
+$_['error_image']            = 'Upozornenie: Adresár s obrázkami musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_image_cache']      = 'Upozornenie: Adresár s cache obrázkami musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_image_catalog']    = 'Upozornenie: Adresár s obrázkami musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_cache']            = 'Upozornenie: Adresár cache musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_log']              = 'Upozornenie: Adresár s logmi musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_download']         = 'Upozornenie: Adresár na sťahovanie musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_upload']           = 'Upozornenie: Adresár na nahrávanie musí byť zapisovateľný, aby OpenCart fungoval!';
+$_['error_modification']     = 'Upozornenie: Adresár na modifikácie musí byť zapisovateľný, aby OpenCart fungoval!';
