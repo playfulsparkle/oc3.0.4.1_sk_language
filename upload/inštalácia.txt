@@ -25,4 +25,4 @@ Inštalácia
 
 Podpora a Aktualizácie
 
-Po nákupe získate bezplatné aktualizácie pre verziu OpenCart 3. Ak budú v budúcnosti vydané aktualizácie pre sériu 4.x, budú dostupné bezplatne. Ak narazíte na akékoľvek problémy alebo potrebujete pomoc, môžete požiadať o podporu prostredníctvom e-mailu na support@playfulsparkle.com.
+Po nákupe získate bezplatné aktualizácie pre verziu OpenCart 3. Ak budú v budúcnosti vydané aktualizácie pre sériu 3.x, budú dostupné bezplatne. Ak narazíte na akékoľvek problémy alebo potrebujete pomoc, môžete požiadať o podporu prostredníctvom e-mailu na support@playfulsparkle.com.

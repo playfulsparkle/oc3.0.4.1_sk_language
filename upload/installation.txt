@@ -25,4 +25,4 @@ Installation
 
 Support and Updates
 
-After your purchase, you will receive free updates for the OpenCart 3 version. If future updates are released for the 4.x series, they will be available free of charge. If you encounter any problems or need assistance, you can request support via email at support@playfulsparkle.com.
+After your purchase, you will receive free updates for the OpenCart 3 version. If future updates are released for the 3.x series, they will be available free of charge. If you encounter any problems or need assistance, you can request support via email at support@playfulsparkle.com.
