@@ -1,0 +1,27 @@
+{
+  "name": "oc3_sk_language",
+  "version": "1.0.0",
+  "description": "Slovak (formal) language for OpenCart 3",
+  "main": "index.js",
+  "scripts": {
+    "compress": "node compress.js"
+  },
+  "keywords": [
+    "opencart",
+    "oc",
+    "playfulsparkle",
+    "slovak",
+    "slovenčina",
+    "language"
+  ],
+  "author": "zsoltoroszlany82 <zsolt.oroszlany@playfulsparkle.com>",
+  "license": "GPL",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playfulsparkle/oc3_sk_language.git"
+  }
+}
