@@ -68,7 +68,7 @@ $_['button_refresh']     = 'Obnoviť';
 
 // Error
 $_['error_permission']   = 'Upozornenie: Nemáte povolenie na úpravu rozšírení!';
-$_['error_opencart']     = 'Upozornenie: Pred stiahnutím rozšírení alebo vykonaním nákupu musíte zadať svoje API údaje OpenCart kliknutím na <i class="fa-solid fa-triangle-exclamation"></i>!';
+$_['error_opencart']     = 'Upozornenie: Pred stiahnutím rozšírení alebo vykonaním nákupu musíte zadať svoje API údaje OpenCart kliknutím na <i class="fa fa-exclamation-circle"></i>!';
 $_['error_install']      = 'Prebieha inštalácia rozšírenia. Prosím, počkajte niekoľko sekúnd pred opätovným pokusom o inštaláciu!';
 $_['error_purchase']     = 'Rozšírenie sa nedalo zakúpiť!';
 $_['error_download']     = 'Rozšírenie sa nedalo stiahnuť!';
