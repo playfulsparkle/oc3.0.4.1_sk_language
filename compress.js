@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const archiver = require("archiver");
 const path = require("path");
 
-const outputPath = path.join(__dirname, "/dist/ps_sk_language.ocmod.zip");
+const outputPath = path.join(__dirname, "/dist/ps_sk_language.zip");
 
 const output = fs.createWriteStream(outputPath);
 
@@ -13,7 +13,7 @@ const archive = archiver("zip", {
 
 output.on("close", function () {
   console.log(`${archive.pointer()} total bytes`);
-  console.log("ps_sk_language.ocmod.zip has been created");
+  console.log("ps_sk_language.zip has been created");
 
   // Calculate and log MD5 and SHA256 checksums
   calculateChecksums(outputPath);
