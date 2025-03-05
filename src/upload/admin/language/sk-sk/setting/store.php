@@ -80,7 +80,7 @@ $_['help_checkout']                = 'Núti ľudí súhlasiť s podmienkami pred
 $_['help_order_status']            = 'Nastavte predvolený stav objednávky, keď je objednávka spracovaná.';
 $_['help_stock_display']           = 'Zobraziť množstvo skladu na stránke produktu.';
 $_['help_stock_checkout']          = 'Povoliť zákazníkom dokončiť objednávku aj v prípade, že produkty, ktoré objednávajú, nie sú na sklade.';
-$_['help_icon']                    = 'Ikona by mala byť vo formáte PNG a mať rozmer 16px x 16px.';
+$_['help_icon']                    = 'Ikona by mala byť vo formáte PNG s rozmermi 16px x 16px.';
 $_['help_secure']                  = 'Na použitie SSL sa skontrolujte so svojím poskytovateľom hostingu, či je nainštalovaný certifikát SSL.';
 
 // Error
