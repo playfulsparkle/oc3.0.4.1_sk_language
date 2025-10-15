@@ -15,3 +15,4 @@ $_['entry_status']      = 'Stav';
 
 // Error
 $_['error_permission']  = 'Upozornenie: Nemáte oprávnenie pre správu modulu HTML obsah!';
+$_['error_name']        = 'Názov modulu musí mať 3 až 64 znakov!';

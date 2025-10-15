@@ -4,6 +4,7 @@ $_['heading_title']    = 'Šablóny';
 
 // Text
 $_['text_success']     = 'Úspech: Šablóny boli úspešne upravené!';
+$_['text_list']        = 'Zoznam tém';
 
 // Column
 $_['column_name']      = 'Názov šablóny';

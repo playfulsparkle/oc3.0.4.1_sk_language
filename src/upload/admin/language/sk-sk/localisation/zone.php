@@ -7,7 +7,6 @@ $_['text_success']           = 'Úspech: Oblasti boli úspešne upravené!';
 $_['text_list']              = 'Zoznam oblastí';
 $_['text_add']               = 'Pridať oblasť';
 $_['text_edit']              = 'Upraviť oblasť';
-$_['text_filter']            = 'Filtrovať';
 
 // Column
 $_['column_name']            = 'Názov oblasti';

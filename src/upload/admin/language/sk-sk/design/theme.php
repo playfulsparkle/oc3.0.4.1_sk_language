@@ -14,6 +14,7 @@ $_['text_twig']         = 'Editor tém používa jazyk šablóny Twig. <a href="
 // Column
 $_['column_store']      = 'Obchod';
 $_['column_route']      = 'Cesta';
+$_['column_theme']      = 'Téma';
 $_['column_date_added'] = 'Dátum pridania';
 $_['column_action']     = 'Akcia';
 

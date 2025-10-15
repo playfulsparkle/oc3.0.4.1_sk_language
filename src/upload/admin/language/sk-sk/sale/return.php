@@ -13,7 +13,6 @@ $_['text_order']           = 'Informácie o objednávke';
 $_['text_product']         = 'Informácie o produkte a dôvod reklamácie';
 $_['text_history']         = 'História';
 $_['text_history_add']     = 'Pridať históriu';
-$_['text_filter']          = 'Filter';
 
 // Column
 $_['column_return_id']     = 'ID reklamácie';

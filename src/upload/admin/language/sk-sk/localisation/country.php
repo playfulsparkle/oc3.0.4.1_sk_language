@@ -7,7 +7,6 @@ $_['text_success']            = 'Úspech: Úspešne ste upravili krajiny!';
 $_['text_list']               = 'Zoznam krajín';
 $_['text_add']                = 'Pridať krajinu';
 $_['text_edit']               = 'Upraviť krajinu';
-$_['text_filter']             = 'Filtrovať';
 
 // Column
 $_['column_name']             = 'Názov krajiny';

@@ -1,16 +1,16 @@
 <?php
-// Heading 
+// Heading
 $_['heading_title']                  = 'Pokladňa';
 
 // Text
 $_['text_cart']                      = 'Košík';
-$_['text_checkout_option']           = 'Krok 1. Možnosti pokladne';
-$_['text_checkout_account']          = 'Krok 2. Účet a fakturačné údaje';
-$_['text_checkout_payment_address']  = 'Krok 2. Fakturačné údaje';
-$_['text_checkout_shipping_address'] = 'Krok 3. Podrobnosti o dodaní';
-$_['text_checkout_shipping_method']  = 'Krok 4. Spôsob dodania';
-$_['text_checkout_payment_method']   = 'Krok 5. Spôsob platby';
-$_['text_checkout_confirm']          = 'Krok 6. Potvrdenie objednávky';
+$_['text_checkout_option']           = 'Krok %s: Možnosti pokladne';
+$_['text_checkout_account']          = 'Krok %s: Účet &amp; fakturačné údaje';
+$_['text_checkout_payment_address']  = 'Krok %s: Fakturačné údaje';
+$_['text_checkout_shipping_address'] = 'Krok %s: Dodacie údaje';
+$_['text_checkout_shipping_method']  = 'Krok %s: Spôsob doručenia';
+$_['text_checkout_payment_method']   = 'Krok %s: Spôsob platby';
+$_['text_checkout_confirm']          = 'Krok %s: Potvrdenie objednávky';
 $_['text_modify']                    = 'Upraviť &raquo;';
 $_['text_new_customer']              = 'Nový zákazník';
 $_['text_returning_customer']        = 'Prihlásenie zákazníka';
@@ -71,7 +71,7 @@ $_['entry_shipping'] 	             = 'Moja dodacia a fakturačná adresa je rovn
 $_['error_warning']                  = 'Nastal problém pri pokuse o spracovanie Vašej objednávky! Ak problém pretrváva skúste prosím vybrať iný spôsob platby, alebo nás prosím <a href="%s">kontaktujte</a>.';
 $_['error_login']                    = 'Upozornenie: Žiadna zhoda pre e-mailovú adresu alebo heslo.';
 $_['error_attempts']                 = 'Upozornenie: Váš účet bol dočasne blokovaný pre prekročený počet pokusov o prihlásenie. Skúste to znova o 1 hodinu.';
-$_['error_approved']                 = 'Upozornenie: Váš účet vyžaduje schválenie predtým, než sa prihlásite.'; 
+$_['error_approved']                 = 'Upozornenie: Váš účet vyžaduje schválenie predtým, než sa prihlásite.';
 $_['error_exists']                   = 'Upozornenie: E-mailová adresa je už zaregistrovaná!';
 $_['error_firstname']                = 'Meno musí byť dlhšie ako 1 znak a kratšie než 32 znakov!';
 $_['error_lastname']                 = 'Priezvisko musí byť dlhšie ako 1 znak a kratšie než 32 znakov!';

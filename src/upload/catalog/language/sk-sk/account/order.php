@@ -4,7 +4,7 @@ $_['heading_title']              = 'História objednávok';
 
 // Text
 $_['text_account']               = 'Účet';
-$_['text_order']                 = 'Objednávka #%s';
+$_['text_order']                 = 'Informácie o objednávke';
 $_['text_order_detail']          = 'Podrobnosti objednávky';
 $_['text_invoice_no']            = 'Faktúra č.';
 $_['text_order_id']              = 'ID objednávky';

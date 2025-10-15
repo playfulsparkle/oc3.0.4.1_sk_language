@@ -4,6 +4,7 @@ $_['heading_title']     = 'Celkové sumy objednávok';
 
 // Text
 $_['text_success']      = 'Úspech: Úspešne ste upravili celkové sumy!';
+$_['text_list']         = 'Zoznam celkových súm objednávok';
 
 // Column
 $_['column_name']       = 'Celkové sumy objednávok';

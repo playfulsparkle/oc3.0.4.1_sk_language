@@ -1,7 +1,6 @@
 <?php
 // Heading
 $_['heading_title']      = 'Zabudli ste heslo?';
-$_['heading_reset']      = 'Obnoviť heslo';
 
 // Text
 $_['text_account']       = 'Účet';
