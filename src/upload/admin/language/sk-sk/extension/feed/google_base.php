@@ -2,7 +2,7 @@
 // Heading
 $_['heading_title']          = 'Google produkty';
 
-// Text   
+// Text
 $_['text_extension']         = 'Rozšírenia';
 $_['text_success']           = 'Google produkty boli úspešne upravené!';
 $_['text_edit']              = 'Upraviť Google produkty';
@@ -11,7 +11,7 @@ $_['text_import']            = 'Ak si chcete stiahnuť najnovší zoznam kategó
 // Column
 $_['column_google_category'] = 'Google kategórie';
 $_['column_category']        = 'Kategórie';
-$_['column_action']          = 'Action';
+$_['column_action']          = 'Akcia';
 
 // Entry
 $_['entry_google_category']  = 'Google kategórie';
