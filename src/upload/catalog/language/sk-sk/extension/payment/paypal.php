@@ -75,7 +75,7 @@ $_['button_edit']  							= 'Upraviť';
 $_['success_order']		 					= 'Úspech: Objednávky boli upravené!';
 
 // Error
-$_['error_warning']							= 'Skontrolujte, prosím, formulár – obsahuje chyby.';
+$_['error_warning']							= 'Skontrolujte, prosím, formulár - obsahuje chyby.';
 $_['error_stock']              				= 'Produkty označené *** nie sú dostupné v požadovanom množstve alebo nie sú na sklade!';
 $_['error_minimum']            				= 'Minimálna hodnota objednávky pre %s je %s!';
 $_['error_required']           				= '%s je povinné!';

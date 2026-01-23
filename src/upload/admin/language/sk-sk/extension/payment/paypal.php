@@ -60,7 +60,7 @@ $_['text_fastlane_alert']					= 'Fastlane funguje iba pre obchodníkov z <strong
 $_['text_message_alert_uk']					= '<strong>Premieňajte návštevníkov na kupujúcich pomocou Pay in 3.¹</strong> Pomôžte zvýšiť predaj a zároveň ponúknite zákazníkom flexibilné platby a vyššiu kúpnu silu. S Pay in 3 môžu zákazníci platiť v troch bezúročných splátkach, zatiaľ čo vy dostanete zaplatené celé, vopred — bez dodatočných nákladov.';
 $_['text_message_footnote_uk']				= '¹Dostupnosť Pay in 3 závisí od statusu obchodníka, odvetvia a integrácie. Spôsobilosť spotrebiteľa podlieha schváleniu. Podrobnosti nájdete v <a href="https://www.paypal.com/uk/webapps/mpp/paypal-payin3/terms" target="_blank">produktových podmienkach</a>.';
 $_['text_message_alert_us']					= '<strong>Pomôžte zvýšiť predaj pomocou zabudovaných možností Zaplať neskôr.</strong> S PayPal Pay Later môžete ponúknuť „Pay in 4“ a „Pay Monthly¹“ — dva cenné spôsoby, ako môžu zákazníci nakúpiť a platiť v čase, zatiaľ čo vy dostanete zaplatené celé, vopred. Obe možnosti sú bez dodatočných nákladov pre váš biznis.';
-$_['text_message_footnote_us']				= '¹O Pay in 4: Pôžičky rezidentom Kalifornie sú poskytované alebo sprostredkované na základe licencie California Financing Law. PayPal, Inc. je držiteľom licencie Georgia Installment Lender, NMLS #910457. Držiteľ licencie na malé pôžičky v štáte Rhode Island.<br />Pay Monthly podlieha schváleniu spotrebiteľského úveru. 9,99–29,99 % RPMN podľa úverovej spoľahlivosti zákazníka. PayPal, Inc.: držiteľ licencie RI Loan Broker. Veriteľom pre Pay Monthly je WebBank.';
+$_['text_message_footnote_us']				= '¹O Pay in 4: Pôžičky rezidentom Kalifornie sú poskytované alebo sprostredkované na základe licencie California Financing Law. PayPal, Inc. je držiteľom licencie Georgia Installment Lender, NMLS #910457. Držiteľ licencie na malé pôžičky v štáte Rhode Island.<br />Pay Monthly podlieha schváleniu spotrebiteľského úveru. 9,99-29,99 % RPMN podľa úverovej spoľahlivosti zákazníka. PayPal, Inc.: držiteľ licencie RI Loan Broker. Veriteľom pre Pay Monthly je WebBank.';
 $_['text_currency_aud']						= 'Austrálsky dolár';
 $_['text_currency_brl']						= 'Brazílsky real';
 $_['text_currency_cad']						= 'Kanadský dolár';
@@ -152,7 +152,7 @@ $_['text_3ds_unable_authentication']		= 'Nie je možné dokončiť overenie.';
 $_['text_3ds_challenge_authentication']		= 'Na overenie je potrebná výzva.';
 $_['text_3ds_card_ineligible']				= 'Typ karty a vydávajúca banka nie sú pripravené na dokončenie 3D Secure overenia.';
 $_['text_3ds_system_unavailable']			= 'Systém je v čase požiadavky nedostupný.';
-$_['text_3ds_system_bypassed'] 				= 'Systém obídený – overenie sa nevykonalo.';
+$_['text_3ds_system_bypassed'] 				= 'Systém obídený - overenie sa nevykonalo.';
 $_['text_payment_method_paypal']			= 'PayPal (Platiť cez PayPal, kartou)';
 $_['text_payment_method_paypal_paylater']	= 'Kúpiť teraz, zaplatiť neskôr s PayPal';
 $_['text_payment_method_cod']				= 'Dobierka';
@@ -315,7 +315,7 @@ $_['help_card_currency_code']		 		= 'Vyberte predvolenú menu pre PayPal Card.';
 $_['help_card_currency_value']		 		= 'Nastavte na 1.00000, ak ide o vašu predvolenú menu.';
 $_['help_cron_url']		  					= 'Nastavte cron úlohu, ktorá bude volať túto URL. Integrácia sa typicky používa pre predplatné/opakované platby.';
 $_['help_card_secure_method'] 				= '3D Secure umožňuje overiť držiteľov kariet prostredníctvom vydavateľov kariet. Metóda „SCA vždy“ vyvolá 3D Secure pri každej transakcii bez ohľadu na požiadavky SCA. Metóda „SCA keď je vyžadované“ vráti 3D Secure len v regiónoch, kde je to mandátom.';
-$_['help_card_secure_scenario'] 			= 'Overenie 3D Secure sa vykoná len vtedy, ak je karta do služby zapojená. V scenároch, kde 3D Secure nebolo úspešné, môžete platbu dokončiť na vlastné riziko, čo znamená, že v prípade spätného zúčtovania (chargeback) nesiete zodpovednosť vy – obchodník.';
+$_['help_card_secure_scenario'] 			= 'Overenie 3D Secure sa vykoná len vtedy, ak je karta do služby zapojená. V scenároch, kde 3D Secure nebolo úspešné, môžete platbu dokončiť na vlastné riziko, čo znamená, že v prípade spätného zúčtovania (chargeback) nesiete zodpovednosť vy - obchodník.';
 $_['help_final_order_status']				= 'Nastavte objednávku ako konečnú; PayPal ju následne nebude môcť zmeniť.';
 
 // Button

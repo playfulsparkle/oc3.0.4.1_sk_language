@@ -8,16 +8,16 @@ Demo backend - https://opencart3.playfulsparkle.com/admin/
 Key Features
 
 - A complete Slovak (formal) language for OpenCart 3.0.4.1: backend, frontend, extension, and installation.
-- Compatible with OpenCart 3.0.4.1+ versions.
+- Compatible with OpenCart 3.0.4.1 versions.
 - The translation is thorough and detailed; we have paid great attention to ensuring that the terminology is consistent across every page, e.g., using "obchod" instead of "eshop" or "webshop".
 
 Installation
 
 1. Download the "Slovak language" package from the OpenCart Marketplace.
 2. Extract the language package files to a folder.
-3. Use your preferred FTP client and navigate to the OpenCart 3.0.4.1 installation directory.
-4. Upload the following folders: "admin", "catalog", "extension" (and "install" if you are installing OpenCart 3.0.4.1 for the first time).
-5. Log in to the OpenCart 3.0.4.1 administration interface.
+3. Use your preferred FTP client and navigate to the OpenCart installation directory.
+4. Upload the following folders: "admin", "catalog", "extension" (and "install" if you are installing OpenCart for the first time).
+5. Log in to the OpenCart administration interface.
 6. Navigate to the "System" -> "Localization" -> "Languages" page.
 7. Click on the "Add New" button.
 8. In the "Language Name" field, enter "Slovenčina"; in the "Code" field, enter "sk-sk"; in the "Locale" field, enter "sk_SK.UTF-8,sk_SK,slovak"; finally, enable the language.
